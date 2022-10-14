@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 
-const ClockComponent = () => {
+const Clock = () => {
   const [data, setData] = useState({
     fecha: new Date(),
     edad: 0,
@@ -33,4 +33,4 @@ const ClockComponent = () => {
 
 }
 
-export default ClockComponent
+export default Clock

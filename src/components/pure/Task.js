@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
-import { Task } from '../../models/task.model'
+import { TaskModel } from '../../models/task.model'
 
-const TaskComponent = ({ task }) => {
+const Task = ({ task }) => {
 
   return (
     <div>
@@ -14,8 +14,8 @@ const TaskComponent = ({ task }) => {
 
 }
 
-TaskComponent.propTypes = {
-  task: PropTypes.instanceOf(Task)
+Task.propTypes = {
+  task: PropTypes.instanceOf(TaskModel)
 }
 
-export default TaskComponent
+export default Task

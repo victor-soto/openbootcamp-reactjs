@@ -1,18 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
-// import TaskListComponent from './components/container/taskList.component';
-// import ContactListComponent from './components/container/contactList.component';
-import ClockComponent from './components/pure/clock.component';
+import ContactList from './components/container/ContactList';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        {/* <TaskListComponent /> */}
-        {/* <ContactListComponent /> */}
-        <ClockComponent />
-     </header>
+    <div className="position-absolute top-50 start-50 translate-middle">
+      <ContactList />
     </div>
   );
 }
