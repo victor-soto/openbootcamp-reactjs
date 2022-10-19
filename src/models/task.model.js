@@ -6,10 +6,10 @@ export class TaskModel {
   completed = false
   level = LEVELS.NORMAL
 
-  constructor(name, description, completed, levels) {
+  constructor(name, description, completed, level) {
     this.name = name
     this.description = description
     this.completed = completed
-    this.levels = levels
+    this.level = level
   }
 }
