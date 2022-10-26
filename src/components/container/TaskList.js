@@ -50,7 +50,7 @@ const TaskList = () => {
 
     const Table = () => {
       return (
-        <table>
+        <table className='table'>
           <thead>
             <tr>
               <th scope='col'>Title</th>
